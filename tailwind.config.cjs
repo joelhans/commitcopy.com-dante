@@ -59,13 +59,16 @@ module.exports = {
                         },
                         'h1,h2,h3,h4,h5,h6': {
                             fontFamily: theme('fontFamily.serif').join(", "),
-                            fontWeight: 500
-                        },
-                        h2: {
+                            fontWeight: 500,
                             code: { 
                                 color: theme('colors.orange'),
                                 paddingTop: 0,
                                 paddingBottom: 0,
+                            },
+                            p: {
+                                code: {
+                                    color: theme('colors.orange'),
+                                }
                             }
                         },
                         blockquote: {
@@ -104,7 +107,7 @@ module.exports = {
                         code: {
                             backgroundColor: theme('colors.gray.800'),
                         },
-                        h2: {
+                        'h1,h2,h3,h4,h5,h6': {
                             code: { 
                                 backgroundColor: theme('colors.gray.800'),
                             }
