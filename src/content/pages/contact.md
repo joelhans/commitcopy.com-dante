@@ -1,14 +1,12 @@
 ---
-title: Get in touch
+title: Ready to <code>checkout</code>?
 seo:
-  title: Contact
-  description: Get in touch through email or social media! Let me know how I can help.
+  title: Ready to checkout?
+  description: Let's talk about advising, copywriting, or content engagements targeting the technical audiences of open-source startup.
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
+To talk about advising, copywriting, or content engagements, email me at joel@commitcopy.com or fill out the form below.
 
-_Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+I’ll be in touch within one business day to set up a discovery session to learn more your open-source startup and the trust you need to build with expert tech content and strategic storytelling.
 
-_Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+[FORM GOES HERE]

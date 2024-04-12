@@ -5,10 +5,15 @@ module.exports = {
     darkMode: 'class',
     theme: {
         fontFamily: {
-            sans: ['Inter', ...defaultTheme.fontFamily.sans],
-            serif: ['Newsreader', ...defaultTheme.fontFamily.serif]
+            sans: ['Open Sans', 'Inter', ...defaultTheme.fontFamily.sans],
+            serif: ['Alegreya Sans', ...defaultTheme.fontFamily.serif],
+            mono: [...defaultTheme.fontFamily.mono],
         },
         extend: {
+            colors: {
+                orange: '#f27370',
+                purple: '#442b75',
+            },
             textColor: {
                 main: 'rgb(var(--color-text-main) / <alpha-value>)'
             },
@@ -53,12 +58,19 @@ module.exports = {
                             }
                         },
                         'h1,h2,h3,h4,h5,h6': {
-                            fontFamily: theme('fontFamily.serif'),
+                            fontFamily: theme('fontFamily.serif').join(", "),
                             fontWeight: 500
+                        },
+                        h2: {
+                            code: { 
+                                color: theme('colors.orange'),
+                                paddingTop: 0,
+                                paddingBottom: 0,
+                            }
                         },
                         blockquote: {
                             border: 0,
-                            fontFamily: theme('fontFamily.serif'),
+                            fontFamily: theme('fontFamily.serif').join(", "),
                             fontSize: '1.3125em',
                             fontStyle: 'italic',
                             fontWeight: 'normal',
@@ -67,6 +79,34 @@ module.exports = {
                             '@media (min-width: theme("screens.sm"))': {
                                 fontSize: '1.66667em',
                                 lineHeight: 1.3
+                            }
+                        },
+                        code: {
+                            color: theme('colors.orange'),
+                            backgroundColor: theme('colors.gray.200'),
+                            fontFamily: theme('fontFamily.mono'),
+                            paddingLeft: '4px',
+                            paddingRight: '4px',
+                            paddingTop: '2px',
+                            paddingBottom: '2px',
+                            borderRadius: '0.25rem',
+                        },
+                        'code::before': {
+                            content: '""',
+                        },
+                        'code::after': {
+                            content: '""',
+                        },
+                    },
+                },
+                dark: {
+                    css: {
+                        code: {
+                            backgroundColor: theme('colors.gray.800'),
+                        },
+                        h2: {
+                            code: { 
+                                backgroundColor: theme('colors.gray.800'),
                             }
                         }
                     }
@@ -80,6 +120,9 @@ module.exports = {
                 }
             })
         }
+    },
+    variants: {
+        typography: ['dark'],
     },
     plugins: [require('@tailwindcss/typography')]
 };

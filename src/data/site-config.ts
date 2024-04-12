@@ -38,7 +38,7 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
+    title: 'Commit',
     subtitle: 'Minimal Astro.js theme',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
@@ -47,72 +47,71 @@ const siteConfig: SiteConfig = {
     },
     headerNavLinks: [
         {
-            text: 'Home',
-            href: '/'
+            text: 'Why me',
+            href: '/why-me'
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: 'Services',
+            href: '/services'
         },
         {
-            text: 'Blog',
-            href: '/blog'
+            text: 'Samples',
+            href: '/samples',
         },
         {
-            text: 'Tags',
-            href: '/tags'
-        }
-    ],
-    footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
+            text: 'Testimonials',
+            href: '/testimonials',
         },
         {
             text: 'Contact',
             href: '/contact'
+        }
+    ],
+    footerNavLinks: [
+        {
+            text: 'Why me',
+            href: '/why-me'
         },
         {
-            text: 'Terms',
-            href: '/terms'
+            text: 'Services',
+            href: '/services'
         },
         {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
+            text: 'Samples',
+            href: '/samples',
+        },
+        {
+            text: 'Testimonials',
+            href: '/testimonials',
+        },
+        {
+            text: 'Contact',
+            href: '/contact'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/joel-hans/'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'I empower open-source startups to win developer trust with expert tech content and strategic storytelling.',
+        text: "Products for developers and engineers are already tough to write for. You need to translate a complex repo of technical jargon into stories and benefits. Plus, when you&rsquo;re also building that product on top of open-source software—or releasing your code directly on GitHub in an open-core model—you&rsquo;re now facing even tougher scrutiny.\n\nI get it. I have 10 years of focused experience in deep-tech products for app developers, DevOps/platform engineers, and security specialists. And I bring a powerful combination of literacy in tech, story, and open-source to write copy and marking content for the technical audiences of open-source and open-core startups.\n\nI embed in marketing, DevRel, and content teams for the long haul to accelerate all your current tactics and upskill your existing team so you start to excel in all your outreach to technical audiences—not just for a single campaign or quarter, but for the long haul.\n\nIf you&rsquo;re ready to get your technical audience to <code>commit</code> through copy and content, let&rsquo;s talk.",
         image: {
             src: '/hero.jpeg',
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
             {
-                text: 'Get in Touch',
-                href: '/contact'
+                text: 'Why work with me?',
+                href: '/why-me'
+            },
+            {
+                text: 'Services I offer',
+                href: '/services'
             }
         ]
-    },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
     },
     postsPerPage: 8,
     projectsPerPage: 8
