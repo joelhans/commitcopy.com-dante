@@ -8,6 +8,8 @@
         --color-bg-main: 249 250 251;
         --color-bg-muted: 234 233 225;
         --color-border-main: 23 23 23;
+        --color-orange: 242 115 112;
+        --color-purple: 68 43 117;
     }
 
     html.dark {

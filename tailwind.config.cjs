@@ -19,7 +19,7 @@ module.exports = {
             },
             backgroundColor: {
                 main: 'rgb(var(--color-bg-main) / <alpha-value>)',
-                muted: 'rgb(var(--color-bg-muted) / <alpha-value>)'
+                muted: 'rgb(var(--color-bg-muted) / <alpha-value>)',
             },
             borderColor: {
                 main: 'rgb(var(--color-border-main) / <alpha-value>)'
@@ -72,16 +72,13 @@ module.exports = {
                             }
                         },
                         blockquote: {
-                            border: 0,
+                            borderColor: theme('colors.purple'),
                             fontFamily: theme('fontFamily.serif').join(", "),
-                            fontSize: '1.3125em',
                             fontStyle: 'italic',
                             fontWeight: 'normal',
-                            lineHeight: 1.4,
-                            paddingLeft: 0,
+                            lineHeight: theme('lineHeight.relaxed'),
                             '@media (min-width: theme("screens.sm"))': {
-                                fontSize: '1.66667em',
-                                lineHeight: 1.3
+                                fontSize:  theme('fontSize.2xl'),
                             }
                         },
                         code: {
@@ -117,7 +114,7 @@ module.exports = {
                 lg: {
                     css: {
                         blockquote: {
-                            paddingLeft: 0
+                            paddingLeft: '1rem'
                         }
                     }
                 }
