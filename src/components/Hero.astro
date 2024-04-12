@@ -1,6 +1,4 @@
 ---
-import { marked } from 'marked';
-import Button from './Button.astro';
 import siteConfig from '../data/site-config';
 
 const hero = siteConfig.hero;
@@ -9,7 +7,7 @@ const hero = siteConfig.hero;
 {
     (hero?.title || hero?.image?.src || hero?.text || (hero?.actions && hero.actions.length > 0)) && (
         <>
-            <section class="w-full flex items-center gap-8 mb-16 sm:mb-24">
+            <section class="w-full flex items-center gap-8 mb-16 sm:mb-16">
                 <div class="w-1/2">
                     {hero.title && <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{hero.title}</h1>}
                 </div>
@@ -21,16 +19,6 @@ const hero = siteConfig.hero;
                         </figure>
                     )}
                 </div>
-            </section>
-            <section class="flex flex-wrap gap-8 mb-16 sm:mb-24">
-                {hero.text && <div class="w-full max-w-none prose prose-dante dark:prose-dark sm:prose-lg" set:html={marked.parse(hero.text)} />}
-                {hero.actions && hero.actions.length > 0 && (
-                    <div class="flex flex-wrap gap-4 mt-8">
-                        {hero.actions.map((action) => (
-                            <Button href={action.href}>{action.text}</Button>
-                        ))}
-                    </div>
-                )}
             </section>
         </>
     )
