@@ -7,13 +7,13 @@ const hero = siteConfig.hero;
 {
     (hero?.title || hero?.image?.src || hero?.text || (hero?.actions && hero.actions.length > 0)) && (
         <>
-            <section class="w-full flex items-center gap-8 mb-16 sm:mb-16">
-                <div class="w-1/2">
+            <section class="w-full grid grid-cols-12 gap-8 mt-24 sm:mt-0 mb-16 sm:mb-16">
+                <div class="col-span-12 sm:col-span-6">
                     {hero.title && <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{hero.title}</h1>}
                 </div>
-                <div class="w-1/2">
+                <div class="col-span-8 col-start-3 sm:col-span-6 sm:col-start-7 my-0">
                     {hero.image?.src && (
-                        <figure>
+                        <figure class="!my-0">
                             <img class="w-full rounded" src={hero.image.src} loading="lazy" decoding="async" alt={hero.image.alt || ''} />
                             {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.caption}</figcaption>}
                         </figure>

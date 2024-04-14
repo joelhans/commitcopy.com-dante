@@ -9,7 +9,7 @@ const navLinks = siteConfig.headerNavLinks || [];
 <nav class="min-h-10 pt-4 pb-18 relative sm:min-h-14 sm:pb-24 md:pt-8">
     {
         navLinks.length > 0 && (
-            <div class="w-full max-w-4xl mt-8 mx-auto relative">
+            <div class="w-full max-w-4xl mt-0 sm:mt-8 mx-auto relative">
                 <button
                     class="menu-toggle w-8 h-8 -ml-1 flex items-center justify-center relative z-30 md:hidden"
                     aria-label="Open Menu"
@@ -20,13 +20,13 @@ const navLinks = siteConfig.headerNavLinks || [];
                 </button>
 
                 <ul id="menu-items" class="menu flex gap-6">
-                    <li>
-                        <a href="/">
+                    <li class="pb-2">
+                        <a href="/" class="block">
                             <div class="group text-2xl font-sans leading-none">
-                                <span class="text-orange font-bold bg-gray-200 dark:bg-gray-800 mr-1 px-3 py-1.5 rounded hover:text-purple dark:hover:text-main transition-[color]">
+                                <button class="text-orange font-bold bg-gray-200 dark:bg-gray-800 mr-1 px-3 py-1.5 rounded hover:text-purple dark:hover:text-main transition-[color]">
                                     {' '}
                                     Commit{' '}
-                                </span>
+                                </button>
                             </div>
                         </a>
                     </li>
