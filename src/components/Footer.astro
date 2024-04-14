@@ -19,7 +19,7 @@ const navLinks = siteConfig.footerNavLinks || [];
     }
     <div
         class:list={[
-            'pt-6 flex flex-col gap-4 border-t border-dashed border-main',
+            'pt-6 flex flex-col gap-4 border-t border-dashed border-gray-300 dark:border-gray-700',
             { 'sm:flex-row-reverse sm:justify-between sm:items-center': socialLinks.length > 0 }
         ]}
     >
@@ -40,7 +40,8 @@ const navLinks = siteConfig.footerNavLinks || [];
             )
         }
         <p class="text-sm">
-            &copy; {new Date().getFullYear()}&nbsp;<a class="hover:underline hover:underline-offset-2" href="/">{siteConfig.title}</a>. All rights reserved.
+            &copy; {new Date().getFullYear()}&nbsp;<a class="font-bold hover:underline hover:underline-offset-2" href="/">{siteConfig.title}</a>
+            <span class="text-xs">dba Nurse Media LLC</span>. All rights reserved.
         </p>
     </div>
 </footer>

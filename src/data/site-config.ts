@@ -39,11 +39,11 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     title: 'Commit',
-    subtitle: 'Minimal Astro.js theme',
+    subtitle: 'Copy and marketing content for open-source startups.',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/twitter-card.png',
+        alt: 'Copy and marketing content for open-source startups.'
     },
     headerNavLinks: [
         {
@@ -97,10 +97,9 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'I empower open-source startups to win developer trust with expert tech content and strategic storytelling.',
-        text: "Products for developers and engineers are already tough to write for. You need to translate a complex repo of technical jargon into stories and benefits. Plus, when you&rsquo;re also building that product on top of open-source software—or releasing your code directly on GitHub in an open-core model—you&rsquo;re now facing even tougher scrutiny.\n\nI get it. I have 10 years of focused experience in deep-tech products for app developers, DevOps/platform engineers, and security specialists. And I bring a powerful combination of literacy in tech, story, and open-source to write copy and marking content for the technical audiences of open-source and open-core startups.\n\nI embed in marketing, DevRel, and content teams for the long haul to accelerate all your current tactics and upskill your existing team so you start to excel in all your outreach to technical audiences—not just for a single campaign or quarter, but for the long haul.\n\nIf you&rsquo;re ready to get your technical audience to <code>commit</code> through copy and content, let&rsquo;s talk.",
         image: {
             src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'A picture of Joel Hans, copywriter and content marketer for open-source startups.'
         },
         actions: [
             {

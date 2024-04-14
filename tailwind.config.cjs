@@ -72,7 +72,7 @@ module.exports = {
                             }
                         },
                         blockquote: {
-                            borderColor: theme('colors.purple'),
+                            borderColor: theme('colors.orange'),
                             fontFamily: theme('fontFamily.serif').join(", "),
                             fontStyle: 'italic',
                             fontWeight: 'normal',
@@ -97,17 +97,24 @@ module.exports = {
                         'code::after': {
                             content: '""',
                         },
+                        hr: {
+                            borderColor: theme('colors.gray.300'),
+                            borderStyle: 'dashed',
+                        }
                     },
                 },
                 dark: {
                     css: {
-                        code: {
-                            backgroundColor: theme('colors.gray.800'),
-                        },
                         'h1,h2,h3,h4,h5,h6': {
                             code: { 
                                 backgroundColor: theme('colors.gray.800'),
                             }
+                        },
+                        code: {
+                            backgroundColor: theme('colors.gray.800'),
+                        },
+                        hr: {
+                            borderColor: theme('colors.gray.700'),
                         }
                     }
                 },
