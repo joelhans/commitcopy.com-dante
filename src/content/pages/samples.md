@@ -27,12 +27,12 @@ I use ngrok’s flexible networking technology to build bridges across the open-
 
 ## Messaging framework for Devtron
 
-I tell Devtron’s story of building an open-source software delivery platform through my deep experience with Kubernetes, DevOps, and platform engineering.
+I join the co-founders of this open-core startup to align the messaging around the Kubernetes software delivery platform, giving their audiences of DevOps and platform engineers fresh reasons to commit.
 
-Link/asset TBD
+- [**Read the case study**](/projects/devtron)
 
 <div class="text-xl italic mt-20">
 
-[Contact me](/contact) for more details about how I helped these clients and the impact of our work.
+[Contact me](/contact) for details about how I helped other clients and the impact of our work.
 
 </div>
