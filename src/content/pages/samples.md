@@ -15,7 +15,7 @@ I help Rewind’s demand generation and content teams with display ads and landi
   - ["A `git clone` ≠ a full backup of your mission critical code."](/samples/rewind_github-1.png) <span class="text-sm">`.png`</span>
   - ["Weekly reminders to push to a secondary `remote` are not a foolproof solution."](/samples/rewind_github-2.png) <span class="text-sm">`.png`</span>
   - ["GitHub can't back up your account-level data."](samples/rewind_github-3.png) <span class="text-sm">`.png`</span>
-  - ["Backign up your GitHub-based code with `git bundle` is far from comprehensive."](/samples/rewind_github-4.png) <span class="text-sm">`.png`</span>
+  - ["Backing up your GitHub-based code with `git bundle` is far from comprehensive."](/samples/rewind_github-4.png) <span class="text-sm">`.png`</span>
 - [**Landing page for DevOps/IT leaders**](/samples/rewind_for-development.png) <span class="text-sm">`.png`</span>
 
 ## Technical leadership essays for ngrok

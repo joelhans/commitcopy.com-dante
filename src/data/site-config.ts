@@ -39,11 +39,11 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     title: 'Commit',
-    subtitle: 'Copy and marketing content for open-source startups.',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    subtitle: 'Copywriting for open-source startups.',
+    description: 'I write copy and marking content for the technical audiences of open-source and open-core startups.',
     image: {
         src: '/twitter-card.png',
-        alt: 'Copy and marketing content for open-source startups.'
+        alt: 'Copywriting for open-source startups.'
     },
     headerNavLinks: [
         {
@@ -96,7 +96,7 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'I empower open-source startups to win developer trust with expert tech content and strategic storytelling.',
+        title: 'I energize open-source startups with technical copy and strategic storytelling to win developer trust.',
         image: {
             src: '/hero.jpeg',
             alt: 'A picture of Joel Hans, copywriter and content marketer for open-source startups.'

@@ -1,11 +1,8 @@
 ---
-title: Why choose my expertise on where commitment meets creativity?
+title: Why choose my expertise on where commitment, code, and creativity meet?
 seo:
-  title: Why choose my expertise on where commitment meets creativity?
+  title: Why choose my expertise on where commitment, code, and creativity meet?
   description: A writer who understands deep tech, an open-source advocate, years of exprience working with your ideal audience... and a Master's in Creative Writing to boot.
-  image:
-    src: '/about.jpeg'
-    alt: A person sitting at a desk in front of a computer
 ---
 
 It’s tough to find a strong copywriter who can easily navigate the nuances of open-source startups and brings understanding of deep tech, like Kubernetes manifests, API authentication with JWTs, or deploying AI models on GPU-accelerated VMs. Finding one who also has a Master’s in Creative writing is even harder.
@@ -20,7 +17,7 @@ I combine deep technical expertise with creative intuition to transform your exp
 
 ## My deep open-source experience is your copy `&&` content cheat code
 
-Your relationship with the open-source community is invaluable and fragile. You need a writer who understands how these folks think and operate to message your product and give them confidence that you’re engaged with open-source for all the right reasons. With me, you can skip past a painful trial-and-error process and start building meaningful relationships.
+Your relationship with the open-source community is invaluable and fragile. You need a writer who understands how these folks think and operate to message your product, build developer trust, and prove you’re engaged with open source for all the right reasons. With me, you can skip past a painful trial-and-error process and start building meaningful relationships.
 
 ## I’m an embedded advisor to amplify your team
 
