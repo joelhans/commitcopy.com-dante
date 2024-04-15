@@ -11,6 +11,9 @@ export default defineConfig({
   integrations: [mdx(), sitemap(), tailwind({
     applyBaseStyles: false
   })],
-  output: "static",
-  adapter: vercel()
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
 });
